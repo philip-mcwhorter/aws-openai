@@ -10,11 +10,11 @@
 ###############################################################################
 # AWS CLI parameters
 ###############################################################################
-aws_account_id = "123456789012"
+aws_account_id = "445727470188"
 tags = {
   "terraform" = "true",
   "project"   = "OpenAI Code Samples"
-  "contact"   = "YOUR CONTACT INFORMATION GOES HERE."
+  "contact"   = "mcwhortersound@gmail.com"
 }
 aws_region = "us-east-1"
 # aws_profile = "default"
@@ -44,8 +44,8 @@ log_retention_days = 3
 ###############################################################################
 # APIGateway parameters
 ###############################################################################
-create_custom_domain       = false
-root_domain                = "example.com"
+create_custom_domain       = true
+root_domain                = "https://philipmcwhorter.me"
 shared_resource_identifier = "openai"
 stage                      = "v1"
 
